@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918&display=swap');
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h1{
+    text-align: center;
+    color: green;
+    font-size: 15rm;
+}
+h1:hover{
+    color: red;
+    transition: 1.5s;
+}
+img {
+    display: block; 
+    margin: 0 auto; 
+    border-radius: 50px;
+}
+p{
+    color: red;
+     font-style: italic;
+     font-size: 1.5em;
+    
+
+}
+p:hover{
+    color: green;
+    transition: 1.5s;
+}
