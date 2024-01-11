@@ -1,0 +1,46 @@
+.support-section {
+    background-color: #f8f8f8;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.support-section h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 30px;
+}
+.support-section h1:hover{
+    color: darkcyan;
+    transition: 1.5s;
+}
+.support-section p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.support-section p:hover{
+    color: darkcyan;
+    transition: 1.5s;
+}
+.support-section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+.support-section h2:hover{
+    color: darkcyan;
+    transition: 1.5s;
+}
+
+.support-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.support-section ul li {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 10px;
+}
