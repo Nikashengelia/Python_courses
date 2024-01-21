@@ -4,35 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Asus</title>
+    <title>Document</title>
 </head>
 <body>
-   
-    <header>
-        <nav>
-          
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="aboutus.html">About Us</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="support.html">Support</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-<br>
-<br>
-<div class="rg">
-<img src="Asus-Logo.png" alt="Asus Logo" height="50px" class="logo">
-</div>
+    <div class="custom-background"></div>
 
-<br>
-<section id="home" class="home-section">
-    <div class="container">
-        <h1 class="s1">Welcome to Asus</h1>
-        <p class="p1">Explore the latest technology and innovation with Asus products. We are committed to delivering high-quality devices to enhance your digital experience.</p>
-        <a href="products.html" class="cta-button">Explore Products</a>
+    <div class="custom-container">
+            <h2 class="custom-heading">Registration Form</h2>
+
+            <div class="custom-group">
+                <label for="firstName" class="custom-label">First Name:</label>
+                <input type="text" id="firstName" name="firstName" class="custom-input" required>
+            </div>
+
+            <div class="custom-group">
+                <label for="lastName" class="custom-label">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" class="custom-input" required>
+            </div>
+
+            <div class="custom-group">
+                <label for="age" class="custom-label">Age</label>
+                <select id="gender" name="gender" class="custom-select">
+                    <option value="male">0-10</option>
+                    <option value="female">10-20</option>
+                    <option value="other">20-40</option>
+                    <option value="other">50+</option>
+                </select>
+            </div>
+
+            <div class="custom-group">
+                <label for="email" class="custom-label">Email:</label>
+                <input type="email" id="email" name="email" class="custom-input" required>
+            </div>
+
+            <div class="custom-group">
+                <label for="reg" class="custom-label">Region</label>
+                <select id="reg" name="reg" class="custom-select">
+                    <option value="male">Europe</option>
+                    <option value="female">Asia</option>
+                    <option value="other">South america</option>
+                    <option value="other">Africa</option>
+                    <option value="other">North america</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="custom-group">
+                <label for="password" class="custom-label">Password:</label>
+                <input type="password" id="password" name="password" class="custom-input" required>
+            </div>
+
+            <div class="custom-group">
+                <label for="gender" class="custom-label">Gender:</label>
+                <select id="gender" name="gender" class="custom-select">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="custom-group">
+                <label for="birthdate" class="custom-label">Birthdate:</label>
+                <input type="date" id="birthdate" name="birthdate" class="custom-input" required>
+            </div>
+
+            <button type="submit" class="custom-button">Register</button>
+        </form>
     </div>
-</section>
 </body>
 </html>
