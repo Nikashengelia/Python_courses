@@ -1,0 +1,27 @@
+.visual-effect {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    margin: 50px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.visual-effect:hover {
+    transform: rotate(45deg) scale(1.5);
+}
+
+@keyframes customAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.custom-animation {
+    animation: customAnimation 2s ease-in-out infinite;
+}
