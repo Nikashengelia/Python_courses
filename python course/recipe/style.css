@@ -1,0 +1,73 @@
+.rounded-image {
+    border-radius: 20px; 
+    position: relative;
+    height: 70px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .f1{
+    margin-left: -300px;
+  }
+ .p2{
+    margin-left: -100px;
+ }
+ .second{
+    margin-left: -250px;
+    background-color: plum;
+    border-radius: 50px;
+    
+    
+
+ }
+ .f2{
+    color: purple;
+ }
+
+
+
+.rounded-image img {
+    border-radius: 20px;
+    position: relative;
+    height: 400px;
+    width: 650px;
+}
+.f3{
+    color: orange;
+    margin-left: -450px;
+}
+.l4{
+    margin-left: -450px;
+}
+.il{
+    color: orange;
+    margin-left: -470px;
+}
+.l3{
+    color: orange;
+}
+.last{
+    margin-left: -400px;
+}
+.p4{
+    margin-left: 400px;
+}
+.second2{
+    margin-left: 450px;
+    margin-top: -30px;
+    color: orange;
+}
+.tg{
+    margin-left: 450px;
+    margin-top: -30px;
+    color: orange;
+}
+.fv{
+    margin-left: 450px;
+    margin-top: -30px;
+    color: orange;
+}
+.nn{
+    margin-left: 450px;
+    margin-top: -30px;
+    color: orange;
+}
